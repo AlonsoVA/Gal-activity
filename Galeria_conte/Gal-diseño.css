@@ -1,0 +1,48 @@
+header{
+    border-radius: 10px;
+    background-color: beige;
+    margin: 10px;
+    padding: 10px;
+}
+
+header h1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 28.8px;
+}
+
+header img{
+    width: 100px;
+    height: 50px;
+    position: absolute;
+}
+
+.Img{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: bisque;
+    margin-top: 10px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+}
+
+.Img img{
+    flex: 0 0 calc(33.33% - 20px);
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.Reference{
+    margin: 10px;
+    background-color: blanchedalmond;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+}
