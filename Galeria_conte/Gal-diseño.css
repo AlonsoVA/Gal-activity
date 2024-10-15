@@ -1,8 +1,12 @@
 header{
     border-radius: 10px;
-    background-color: beige;
-    margin: 10px;
+    background-color: #423F3E;
+    margin: 15px;
     padding: 10px;
+}
+
+body{
+    background-color: #0C0C0C;
 }
 
 header h1{
@@ -21,7 +25,7 @@ header img{
 .Img{
     display: flex;
     flex-wrap: wrap;
-    background-color: bisque;
+    background-color: #423F3E;
     margin-top: 10px;
     padding: 10px;
     margin: 10px;
@@ -32,17 +36,32 @@ header img{
 
 .Img img{
     flex: 0 0 calc(33.33% - 20px);
-    width: 300px;
-    height: auto;
     border-radius: 20px;
     padding: 10px;
     margin-top: 10px;
+    width: 100px;
+    height: 500px;
 }
 
 .Reference{
     margin: 10px;
-    background-color: blanchedalmond;
+    background-color: #423F3E;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.Reference img{
+    width: 200px;
+    border-radius: 10px;
+}
+
+.Derechos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Reference p{
+    font-size: 17px;
 }
