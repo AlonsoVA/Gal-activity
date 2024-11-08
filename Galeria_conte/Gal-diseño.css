@@ -1,8 +1,12 @@
 header{
     border-radius: 10px;
-    background-color: beige;
+    background-color: #D8D8D8;
     margin: 10px;
     padding: 10px;
+}
+
+body{
+    background-color: black;
 }
 
 header h1{
@@ -13,15 +17,15 @@ header h1{
 }
 
 header img{
-    width: 100px;
-    height: 50px;
+    width: 50px;
+    height: auto;
     position: absolute;
 }
 
 .Img{
     display: flex;
     flex-wrap: wrap;
-    background-color: bisque;
+    background-color: #D8D8D8;
     margin-top: 10px;
     padding: 10px;
     margin: 10px;
@@ -40,9 +44,15 @@ header img{
 }
 
 .Reference{
+    display: flex;
     margin: 10px;
-    background-color: blanchedalmond;
+    background-color: #D8D8D8;
     margin-top: 10px;
     padding: 10px;
     border-radius: 10px;
+}
+
+.Reference img{
+    width: 80px;
+    height: auto;
 }
